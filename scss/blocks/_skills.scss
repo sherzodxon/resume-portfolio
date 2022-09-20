@@ -1,0 +1,237 @@
+.skills {
+    padding-top: 120px;
+
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+
+    &::after {
+        width: 160px;
+        height: 35px;
+        content: "";
+        background: url(../../img/redline.svg) no-repeat center center;
+        bottom: -20px;
+        position: absolute;
+        left: calc(50% - 80px);
+    }
+
+}
+
+.skills__list {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+ 
+}
+
+.skills__item {
+    background-color: white;
+    margin-bottom: 0;
+    background-image: linear-gradient(to top, #accbee 0%, #faf5f5 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: rgba(61, 97, 119, 0.7);
+    width: 100%;
+    margin: 0 auto;
+    left: 27%;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+
+.skills__item-title {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.other-title {
+    padding-right: 30px;
+}
+.skills__title{
+    margin-bottom: 30px;
+}
+
+.skills__name {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    padding-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    color: rgba(69, 123, 157, 1);
+    margin-bottom: 15px;
+
+  
+
+    &:last-child {
+        padding-bottom: 30px;
+    }
+
+    &::before {
+        width: 30px;
+        height: 30px;
+        content: '';
+        position: absolute;
+        left: 50px;
+    }
+}
+
+.mobile-list {
+    display: none;
+}
+
+#mobile-list {
+    display: none;
+}
+
+.html {
+    position: relative;
+
+    &::before {
+        background: url(../../img/htmls.svg) no-repeat center center;
+    }
+}
+
+.css {
+    position: relative;
+
+    &::before {
+        background: url(../../img/css.svg) no-repeat center center;
+    }
+}
+
+.sass {
+    position: relative;
+
+    &::before {
+        background: url(../../img/sass.svg) no-repeat center center;
+    }
+}
+
+.bootstrap {
+    position: relative;
+
+    &::before {
+        background: url(../../img/bootstrapp.svg) no-repeat center center;
+    }
+}
+
+.javascript {
+    position: relative;
+
+    &::before {
+        background: url(../../img/js.svg) no-repeat center center;
+    }
+}
+
+.react {
+    position: relative;
+
+    &::before {
+        background: url(../../img/reactbl.svg) no-repeat center center;
+    }
+}
+
+.nodejs {
+    position: relative;
+
+    &::before {
+        background: url(../../img/nodejs.svg) no-repeat center center;
+    }
+}
+
+.mongodb {
+    position: relative;
+
+    &::before {
+        background: url(../../img/mongo.svg) no-repeat center center;
+    }
+}
+
+.mysql {
+    position: relative;
+
+    &::before {
+        background: url(../../img/mysql.svg) no-repeat center center;
+    }
+}
+
+.php {
+    position: relative;
+
+    &::before {
+        background: url(../../img/php.svg) no-repeat center center;
+    }
+}
+
+.java {
+    position: relative;
+
+    &::before {
+        background: url(../../img/java.svg) no-repeat center center;
+    }
+}
+
+.go {
+    position: relative;
+
+    &::before {
+        width: 50px;
+        left: 40px;
+        background: url(../../img/go.svg) no-repeat center center;
+    }
+}
+
+.git {
+    position: relative;
+
+    &::before {
+        background: url(../../img/git.svg) no-repeat center center;
+    }
+}
+
+.github {
+    position: relative;
+
+    &::before {
+        background: url(../../img/github.svg) no-repeat center center;
+    }
+}
+
+.gitlab {
+    position: relative;
+
+    &::before {
+        background: url(../../img/gitlabb.svg) no-repeat center center;
+    }
+}
+
+.material {
+    position: relative;
+
+    &::before {
+        background: url(../../img/material.svg) no-repeat center center;
+    }
+}
+
+.jquery {
+    position: relative;
+
+    &::before {
+        background: url(../../img/jquery.svg) no-repeat center center;
+    }
+}
+
+.ant {
+    position: relative;
+
+    &::before {
+        background: url(../../img/ant2.svg) no-repeat center center;
+    }
+}

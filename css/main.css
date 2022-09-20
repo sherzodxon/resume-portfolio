@@ -1,0 +1,453 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+body {
+  font-family: Poppins;
+  color: rgb(69, 123, 157);
+  position: relative;
+  background-color: #E5E5E5;
+  overflow-x: hidden;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* poppins-300 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""), url("../../fonts/poppins-v20-latin-300.woff2") format("woff2"), url("../../fonts/poppins-v20-latin-300.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-regular - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../../fonts/poppins-v20-latin-regular.woff2") format("woff2"), url("../../fonts/poppins-v20-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../../fonts/poppins-v20-latin-500.woff2") format("woff2"), url("../../fonts/poppins-v20-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../../fonts/poppins-v20-latin-600.woff2") format("woff2"), url("../../fonts/poppins-v20-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* anek-telugu-300 - latin */
+@font-face {
+  font-family: "Anek Telugu";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""), url("../../fonts/anek-telugu-v4-latin-300.woff2") format("woff2"), url("../../fonts/anek-telugu-v4-latin-300.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* anek-telugu-regular - latin */
+@font-face {
+  font-family: "Anek Telugu";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../../fonts/anek-telugu-v4-latin-regular.woff2") format("woff2"), url("../../fonts/anek-telugu-v4-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+.nav {
+  position: fixed;
+  bottom: 15px;
+  width: 456px;
+  left: calc(50% - 228px);
+  top: calc(100% - 10vh);
+  z-index: 2;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+  width: 456px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #DEF2E9;
+  border-radius: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__item {
+  margin: 0;
+  padding: 0;
+  padding: 8px 0px;
+}
+
+.nav__link {
+  margin: 0;
+  padding: 0;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 30px;
+  color: #457B9D;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.nav__link:active {
+  background-color: #457B9D;
+  color: #DEF2E9;
+}
+
+.nav-active {
+  background-color: #457B9D;
+  color: #DEF2E9;
+}
+
+.intro__container {
+  display: flex;
+  background-color: #A8DADC;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 250px;
+  background: url(../../img/bg.png) no-repeat bottom center;
+  background-size: 100% 320px;
+  overflow: hidden;
+}
+
+.intro__bg-img {
+  margin-right: 100px;
+}
+
+.intro__text-wrapper {
+  margin-left: 140px;
+}
+
+.intro__text {
+  margin-top: 0px;
+  font-size: 51px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(29, 53, 87);
+}
+
+.intro__text-name {
+  margin: 0;
+  font-family: Anek Telugu;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.3em;
+  text-align: left;
+}
+
+.skills {
+  padding-top: 120px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+.title::after {
+  width: 160px;
+  height: 35px;
+  content: "";
+  background: url(../../img/redline.svg) no-repeat center center;
+  bottom: -20px;
+  position: absolute;
+  left: calc(50% - 80px);
+}
+
+.skills__list {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.skills__item {
+  background-color: white;
+  margin-bottom: 0;
+  background-image: linear-gradient(to top, #accbee 0%, #faf5f5 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: rgba(61, 97, 119, 0.7);
+  width: 100%;
+  margin: 0 auto;
+  left: 27%;
+  border-radius: 25px;
+  margin-top: 50px;
+}
+
+.skills__item-title {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+.other-title {
+  padding-right: 30px;
+}
+
+.skills__title {
+  margin-bottom: 30px;
+}
+
+.skills__name {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  padding-left: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  color: rgb(69, 123, 157);
+  margin-bottom: 15px;
+}
+.skills__name:last-child {
+  padding-bottom: 30px;
+}
+.skills__name::before {
+  width: 30px;
+  height: 30px;
+  content: "";
+  position: absolute;
+  left: 50px;
+}
+
+.mobile-list {
+  display: none;
+}
+
+#mobile-list {
+  display: none;
+}
+
+.html {
+  position: relative;
+}
+.html::before {
+  background: url(../../img/htmls.svg) no-repeat center center;
+}
+
+.css {
+  position: relative;
+}
+.css::before {
+  background: url(../../img/css.svg) no-repeat center center;
+}
+
+.sass {
+  position: relative;
+}
+.sass::before {
+  background: url(../../img/sass.svg) no-repeat center center;
+}
+
+.bootstrap {
+  position: relative;
+}
+.bootstrap::before {
+  background: url(../../img/bootstrapp.svg) no-repeat center center;
+}
+
+.javascript {
+  position: relative;
+}
+.javascript::before {
+  background: url(../../img/js.svg) no-repeat center center;
+}
+
+.react {
+  position: relative;
+}
+.react::before {
+  background: url(../../img/reactbl.svg) no-repeat center center;
+}
+
+.nodejs {
+  position: relative;
+}
+.nodejs::before {
+  background: url(../../img/nodejs.svg) no-repeat center center;
+}
+
+.mongodb {
+  position: relative;
+}
+.mongodb::before {
+  background: url(../../img/mongo.svg) no-repeat center center;
+}
+
+.mysql {
+  position: relative;
+}
+.mysql::before {
+  background: url(../../img/mysql.svg) no-repeat center center;
+}
+
+.php {
+  position: relative;
+}
+.php::before {
+  background: url(../../img/php.svg) no-repeat center center;
+}
+
+.java {
+  position: relative;
+}
+.java::before {
+  background: url(../../img/java.svg) no-repeat center center;
+}
+
+.go {
+  position: relative;
+}
+.go::before {
+  width: 50px;
+  left: 40px;
+  background: url(../../img/go.svg) no-repeat center center;
+}
+
+.git {
+  position: relative;
+}
+.git::before {
+  background: url(../../img/git.svg) no-repeat center center;
+}
+
+.github {
+  position: relative;
+}
+.github::before {
+  background: url(../../img/github.svg) no-repeat center center;
+}
+
+.gitlab {
+  position: relative;
+}
+.gitlab::before {
+  background: url(../../img/gitlabb.svg) no-repeat center center;
+}
+
+.material {
+  position: relative;
+}
+.material::before {
+  background: url(../../img/material.svg) no-repeat center center;
+}
+
+.jquery {
+  position: relative;
+}
+.jquery::before {
+  background: url(../../img/jquery.svg) no-repeat center center;
+}
+
+.ant {
+  position: relative;
+}
+.ant::before {
+  background: url(../../img/ant2.svg) no-repeat center center;
+}
+
+.projects {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.projects__title {
+  margin-bottom: 90px;
+}
+
+.projects__item {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 30px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.projects__item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.projects__img {
+  padding: 25px;
+  border-radius: 35px;
+  cursor: pointer;
+}
+.projects__img:hover {
+  opacity: 0.7;
+}
+
+.projects__info {
+  padding-left: 25px;
+}
+.projects__info:nth-child(even) {
+  padding-right: 180px;
+}
+
+.projects__technology {
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+
+.projects__name {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-bottom: 20px;
+}
+
+.projects__links-wrapper {
+  display: flex;
+}
+
+.projects__version, .projects__live {
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+
+.projects__live {
+  text-decoration: none;
+  color: rgb(230, 57, 70);
+  margin-left: 10px;
+}/*# sourceMappingURL=main.css.map */

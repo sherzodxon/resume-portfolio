@@ -1,0 +1,38 @@
+.intro__container {
+    display: flex;
+    background-color: #A8DADC;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 250px;
+    background: url(../../img/bg.png) no-repeat bottom center;
+    background-size: 100% 320px;
+    overflow: hidden;
+}
+
+.intro__bg-img {
+    margin-right: 100px;
+}
+
+.intro__text-wrapper {
+    margin-left: 140px;
+}
+
+.intro__text {
+    margin-top: 0px;
+    font-size: 51px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(29, 53, 87, 1);
+}
+.intro__text-name {
+    margin: 0;
+    font-family: Anek Telugu;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.3em;
+    text-align: left;
+}
