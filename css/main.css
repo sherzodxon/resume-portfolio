@@ -4,7 +4,8 @@
 }
 
 .container {
-  width: 95%;
+  max-width: 1290px;
+  width: 99%;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -245,6 +246,7 @@ a {
     font-size: 45px;
     line-height: 55px;
     margin-top: 10px;
+    padding: 0 10px;
   }
   .intro__bg-img {
     margin: 0;
@@ -255,6 +257,36 @@ a {
   .intro__text-name {
     text-align: center;
     font-size: 20px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .intro__text {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .intro__bg-img {
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .intro__bg-img {
+    height: 30%;
+    margin-top: 30px;
+    width: 78%;
+  }
+  .intro__text {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .intro__text-name {
+    font-size: 17px;
+  }
+  .intro__bg-img {
+    width: 85%;
+  }
+  .intro__text {
+    font-size: 28px;
   }
 }
 .skills {
