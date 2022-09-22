@@ -1,0 +1,146 @@
+
+.html {
+    position: relative;
+
+    &::before {
+        background: url(../../img/htmls.svg) no-repeat center center;
+    }
+}
+
+.css {
+    position: relative;
+
+    &::before {
+        background: url(../../img/css.svg) no-repeat center center;
+    }
+}
+
+.sass {
+    position: relative;
+
+    &::before {
+        background: url(../../img/sass.svg) no-repeat center center;
+    }
+}
+
+.bootstrap {
+    position: relative;
+
+    &::before {
+        background: url(../../img/bootstrapp.svg) no-repeat center center;
+    }
+}
+
+.javascript {
+    position: relative;
+
+    &::before {
+        background: url(../../img/js.svg) no-repeat center center;
+    }
+}
+
+.react {
+    position: relative;
+
+    &::before {
+        background: url(../../img/reactbl.svg) no-repeat center center;
+    }
+}
+
+.nodejs {
+    position: relative;
+
+    &::before {
+        background: url(../../img/nodejs.svg) no-repeat center center;
+    }
+}
+
+.mongodb {
+    position: relative;
+
+    &::before {
+        background: url(../../img/mongo.svg) no-repeat center center;
+    }
+}
+
+.mysql {
+    position: relative;
+
+    &::before {
+        background: url(../../img/mysql.svg) no-repeat center center;
+    }
+}
+
+.php {
+    position: relative;
+
+    &::before {
+        background: url(../../img/php.svg) no-repeat center center;
+    }
+}
+
+.java {
+    position: relative;
+
+    &::before {
+        background: url(../../img/java.svg) no-repeat center center;
+    }
+}
+
+.go {
+    position: relative;
+
+    &::before {
+        width: 50px;
+        left: 40px;
+        background: url(../../img/go.svg) no-repeat center center;
+    }
+}
+
+.git {
+    position: relative;
+
+    &::before {
+        background: url(../../img/git.svg) no-repeat center center;
+    }
+}
+
+.github {
+    position: relative;
+
+    &::before {
+        background: url(../../img/github.svg) no-repeat center center;
+    }
+}
+
+.gitlab {
+    position: relative;
+
+    &::before {
+        background: url(../../img/gitlabb.svg) no-repeat center center;
+    }
+}
+
+.material {
+    position: relative;
+
+    &::before {
+        background: url(../../img/material.svg) no-repeat center center;
+    }
+}
+
+.jquery {
+    position: relative;
+
+    &::before {
+        background: url(../../img/jquery.svg) no-repeat center center;
+    }
+}
+
+.ant {
+    position: relative;
+
+    &::before {
+        background: url(../../img/ant2.svg) no-repeat center center;
+    }
+}

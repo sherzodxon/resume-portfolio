@@ -1,6 +1,13 @@
+@import "skills-icons";
+
 .skills {
     padding-top: 120px;
+}
 
+.skills__container {
+    width: 99%;
+    padding: 0;
+    margin: 0;
 }
 
 .title {
@@ -26,7 +33,6 @@
     justify-content: space-between;
     width: 70%;
     margin: 0 auto;
- 
 }
 
 .skills__item {
@@ -51,7 +57,8 @@
 .other-title {
     padding-right: 30px;
 }
-.skills__title{
+
+.skills__title {
     margin-bottom: 30px;
 }
 
@@ -67,8 +74,6 @@
     color: rgba(69, 123, 157, 1);
     margin-bottom: 15px;
 
-  
-
     &:last-child {
         padding-bottom: 30px;
     }
@@ -82,156 +87,91 @@
     }
 }
 
-.mobile-list {
-    display: none;
-}
 
 #mobile-list {
     display: none;
 }
 
-.html {
-    position: relative;
+@media only screen and(max-width:820px) {
 
-    &::before {
-        background: url(../../img/htmls.svg) no-repeat center center;
+    .skills__list {
+        width: 85%;
+        padding-top: 60px;
     }
 }
 
-.css {
-    position: relative;
-
-    &::before {
-        background: url(../../img/css.svg) no-repeat center center;
+@media only screen and(max-width:650px) {
+    #mobile-list {
+        display: block;
     }
-}
 
-.sass {
-    position: relative;
+    #destkop-list {
+        display: none;
 
-    &::before {
-        background: url(../../img/sass.svg) no-repeat center center;
     }
-}
 
-.bootstrap {
-    position: relative;
-
-    &::before {
-        background: url(../../img/bootstrapp.svg) no-repeat center center;
+    .skills__item {
+        width: 65%;
+        height: 60%;
     }
-}
 
-.javascript {
-    position: relative;
+    .skills__name {
+        padding-left: 120px;
 
-    &::before {
-        background: url(../../img/js.svg) no-repeat center center;
+        &::before {
+            left: 60px;
+        }
     }
-}
 
-.react {
-    position: relative;
-
-    &::before {
-        background: url(../../img/reactbl.svg) no-repeat center center;
+    .skills__list {
+        height: 80%;
     }
-}
 
-.nodejs {
-    position: relative;
-
-    &::before {
-        background: url(../../img/nodejs.svg) no-repeat center center;
+    .skills {
+        padding-top: 150px;
+        height: 100vh;
     }
-}
 
-.mongodb {
-    position: relative;
+    .skills__name {
+        &:last-child {
+            padding-bottom: 80px;
+        }
 
-    &::before {
-        background: url(../../img/mongo.svg) no-repeat center center;
+        &:first-child {
+            padding-top: 60px;
+        }
     }
-}
 
-.mysql {
-    position: relative;
-
-    &::before {
-        background: url(../../img/mysql.svg) no-repeat center center;
+    .skills__item-title {
+        padding-bottom: 40px;
     }
-}
 
-.php {
-    position: relative;
-
-    &::before {
-        background: url(../../img/php.svg) no-repeat center center;
+    .other-title {
+        padding-right: 0;
     }
+
 }
-
-.java {
-    position: relative;
-
-    &::before {
-        background: url(../../img/java.svg) no-repeat center center;
+@media only screen and(max-width:500px){
+    .skills__name{
+        padding-left: 90px;
+        &::before{
+            left: 40px;
+        }
     }
+  
 }
-
-.go {
-    position: relative;
-
-    &::before {
-        width: 50px;
-        left: 40px;
-        background: url(../../img/go.svg) no-repeat center center;
+@media only screen and(max-width:420px){
+    .skills__name{
+        padding-left: 100px;
+        font-size: 16px;
+        &::before{
+            left: 50px;
+        }
     }
-}
-
-.git {
-    position: relative;
-
-    &::before {
-        background: url(../../img/git.svg) no-repeat center center;
+    .skills__item{
+        width: 90%;
     }
-}
-
-.github {
-    position: relative;
-
-    &::before {
-        background: url(../../img/github.svg) no-repeat center center;
-    }
-}
-
-.gitlab {
-    position: relative;
-
-    &::before {
-        background: url(../../img/gitlabb.svg) no-repeat center center;
-    }
-}
-
-.material {
-    position: relative;
-
-    &::before {
-        background: url(../../img/material.svg) no-repeat center center;
-    }
-}
-
-.jquery {
-    position: relative;
-
-    &::before {
-        background: url(../../img/jquery.svg) no-repeat center center;
-    }
-}
-
-.ant {
-    position: relative;
-
-    &::before {
-        background: url(../../img/ant2.svg) no-repeat center center;
+    .skills__list{
+        padding-bottom: 30px;
     }
 }

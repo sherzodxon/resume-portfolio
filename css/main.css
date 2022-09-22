@@ -134,12 +134,12 @@ a {
     left: 3%;
   }
   .nav__link {
-    padding: 6px 20px;
+    padding: 8px 20px;
   }
 }
 @media only screen and (max-width: 520px) {
   .nav__link {
-    padding: 5px 15px;
+    padding: 6px 15px;
     font-size: 14px;
   }
   .nav__item {
@@ -289,91 +289,6 @@ a {
     font-size: 28px;
   }
 }
-.skills {
-  padding-top: 120px;
-}
-
-.title {
-  text-align: center;
-  margin-bottom: 30px;
-  position: relative;
-}
-.title::after {
-  width: 160px;
-  height: 35px;
-  content: "";
-  background: url(../../img/redline.svg) no-repeat center center;
-  bottom: -20px;
-  position: absolute;
-  left: calc(50% - 80px);
-}
-
-.skills__list {
-  margin-top: 80px;
-  display: flex;
-  justify-content: space-between;
-  width: 70%;
-  margin: 0 auto;
-}
-
-.skills__item {
-  background-color: white;
-  margin-bottom: 0;
-  background-image: linear-gradient(to top, #accbee 0%, #faf5f5 100%);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  color: rgba(61, 97, 119, 0.7);
-  width: 100%;
-  margin: 0 auto;
-  left: 27%;
-  border-radius: 25px;
-  margin-top: 50px;
-}
-
-.skills__item-title {
-  text-align: center;
-  padding-top: 40px;
-  padding-bottom: 25px;
-}
-
-.other-title {
-  padding-right: 30px;
-}
-
-.skills__title {
-  margin-bottom: 30px;
-}
-
-.skills__name {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 27px;
-  letter-spacing: 0.1em;
-  padding-left: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  color: rgb(69, 123, 157);
-  margin-bottom: 15px;
-}
-.skills__name:last-child {
-  padding-bottom: 30px;
-}
-.skills__name::before {
-  width: 30px;
-  height: 30px;
-  content: "";
-  position: absolute;
-  left: 50px;
-}
-
-.mobile-list {
-  display: none;
-}
-
-#mobile-list {
-  display: none;
-}
-
 .html {
   position: relative;
 }
@@ -502,6 +417,159 @@ a {
   background: url(../../img/ant2.svg) no-repeat center center;
 }
 
+.skills {
+  padding-top: 120px;
+}
+
+.skills__container {
+  width: 99%;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+.title::after {
+  width: 160px;
+  height: 35px;
+  content: "";
+  background: url(../../img/redline.svg) no-repeat center center;
+  bottom: -20px;
+  position: absolute;
+  left: calc(50% - 80px);
+}
+
+.skills__list {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.skills__item {
+  background-color: white;
+  margin-bottom: 0;
+  background-image: linear-gradient(to top, #accbee 0%, #faf5f5 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: rgba(61, 97, 119, 0.7);
+  width: 100%;
+  margin: 0 auto;
+  left: 27%;
+  border-radius: 25px;
+  margin-top: 50px;
+}
+
+.skills__item-title {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+.other-title {
+  padding-right: 30px;
+}
+
+.skills__title {
+  margin-bottom: 30px;
+}
+
+.skills__name {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  padding-left: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  color: rgb(69, 123, 157);
+  margin-bottom: 15px;
+}
+.skills__name:last-child {
+  padding-bottom: 30px;
+}
+.skills__name::before {
+  width: 30px;
+  height: 30px;
+  content: "";
+  position: absolute;
+  left: 50px;
+}
+
+#mobile-list {
+  display: none;
+}
+
+@media only screen and (max-width: 820px) {
+  .skills__list {
+    width: 85%;
+    padding-top: 60px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #mobile-list {
+    display: block;
+  }
+  #destkop-list {
+    display: none;
+  }
+  .skills__item {
+    width: 65%;
+    height: 60%;
+  }
+  .skills__name {
+    padding-left: 120px;
+  }
+  .skills__name::before {
+    left: 60px;
+  }
+  .skills__list {
+    height: 80%;
+  }
+  .skills {
+    padding-top: 150px;
+    height: 100vh;
+  }
+  .skills__name:last-child {
+    padding-bottom: 80px;
+  }
+  .skills__name:first-child {
+    padding-top: 60px;
+  }
+  .skills__item-title {
+    padding-bottom: 40px;
+  }
+  .other-title {
+    padding-right: 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .skills__name {
+    padding-left: 90px;
+  }
+  .skills__name::before {
+    left: 40px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .skills__name {
+    padding-left: 100px;
+    font-size: 16px;
+  }
+  .skills__name::before {
+    left: 50px;
+  }
+  .skills__item {
+    width: 90%;
+  }
+  .skills__list {
+    padding-bottom: 30px;
+  }
+}
 .projects {
   padding-top: 150px;
 }
