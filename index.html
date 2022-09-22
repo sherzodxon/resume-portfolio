@@ -285,29 +285,38 @@
             </ul>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="contact__container container">
-            <h2 class="contact__title title">Contact</h2>
+            <h2 class="contact__title title">contact</h2>
             <div class="contact__wrapper">
                 <form action="get" class="contact__form">
-                    <div class="contact__input-wrapper inputEffectJs">
-                        <input type="text" class="contact__input input-effect" required name="name" id="name">
-                        <label class="contact__label">Name</label>
-                      
+                    <label for="name" class="contact__label">Name</label>
+                    <div class="contact__textbox">
+                        <input type="text" class="contact__input" required name="name" id="name">
+                        <div class="contact__border"></div>
+                    </div><label for="email" class="contact__label">E-mail</label>
+                    <div class="contact__textbox">
+                        <input class="contact__input" type="email" id="email" name="email" required>
+                        <div class="contact__border"></div>
                     </div>
-                    <div class="contact__email-wrapper">
-                        <input class="contact__input input-effect" type="email" id="email" name="email" required
-                            placeholder="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}">
-                        <label class="contact__label">Email</label>
-                        
-                    </div>
-                    <div class="contact__input-wrapper">
-                        <textarea class="contact__input input-effect" name="message" id="message" cols="20" rows="10"></textarea>
-                        <label>Message</label>
-                      
+                    <label for="message" class="contact__label">Message</label>
+                    <div class="contact__textbox"> 
+                        <textarea class="contact__input" name="message" id="message" cols="20" rows="10"></textarea>
+                        <div class="contact__border"></div>
                     </div>
                     <button type="submit" class="contact__button">Send</button>
                 </form>
+                <ul class="contact__list">
+                    <li class="contact__item telephone">
+                        <a href="tel:+998949414300" class="contact__phone">+998(94) 941 43 00</a>
+                    </li>
+                    <li class="contact__item instagram">
+                        <a href="https://instagram.com/sherzodxon_yarmatxonov" class="contact__instagram" target="_blank">sherzodxon_yarmatxonov</a>
+                    </li>
+                    <li class="contact__item telegram">
+                        <a href="tg://resolve?domain=<sherxon_officia1>" target="_blank" class="contact__telegram">Sherzod...</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </section>

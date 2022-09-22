@@ -381,7 +381,6 @@ a {
 
 .projects {
   padding-top: 150px;
-  padding-bottom: 150px;
 }
 
 .projects__title {
@@ -450,4 +449,151 @@ a {
   text-decoration: none;
   color: rgb(230, 57, 70);
   margin-left: 10px;
+}
+
+.contact {
+  padding-top: 150px;
+}
+
+.contact__wrapper {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+.contact__form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__input {
+  font-family: Poppins;
+  border: none;
+  color: #457b9d;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  padding: 10px;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 200px;
+  min-height: 20px;
+  box-sizing: border-box;
+  outline: none;
+  z-index: 2;
+}
+
+.contact__label {
+  margin-top: 15px;
+  color: rgb(29, 53, 87);
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.2em;
+  padding-left: 10px;
+}
+
+body .contact__textbox {
+  padding: 2px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+body .contact__border {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 0%;
+  background: rgb(69, 123, 157);
+  z-index: -1;
+  transition: height 0.3s, width 0.3s 0.1s;
+  border-radius: 15px;
+}
+
+body input:focus ~ .contact__border {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.contact__button {
+  padding: 0;
+  padding: 8px 15px;
+  width: 90px;
+  padding-bottom: 4px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background: rgb(230, 57, 70);
+  cursor: pointer;
+  font-family: Anek Telugu;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.contact__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__item {
+  padding: 45px;
+  background-color: white;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  position: relative;
+}
+.contact__item::after {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  content: "";
+  top: -20px;
+  left: -20px;
+}
+
+.telephone {
+  position: relative;
+  color: green;
+}
+.telephone::after {
+  background: url(../../img/tel.svg);
+}
+
+.contact__phone {
+  color: rgb(154, 228, 42);
+}
+
+.contact__instagram {
+  color: orange;
+}
+
+.contact__telegram {
+  color: rgb(87, 218, 228);
+}
+
+.instagram {
+  position: relative;
+}
+.instagram::after {
+  background: url(../../img/insta1.svg);
+}
+
+.telegram {
+  position: relative;
+}
+.telegram::after {
+  background: url(../../img/tg1.svg) no-repeat;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  content: "";
+  left: -30px;
 }/*# sourceMappingURL=main.css.map */
