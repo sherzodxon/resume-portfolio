@@ -9,7 +9,6 @@
 .nav__list {
     display: flex;
     list-style: none;
-    width: 456px;
     justify-content: space-between;
     align-items: center;
     background-color: #DEF2E9;
@@ -22,7 +21,6 @@
     margin: 0;
     padding: 0;
     padding: 8px 0px;
-   
 }
 
 .nav__link {
@@ -34,9 +32,6 @@
     color: #457B9D;
     font-size: 18px;
     font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
 }
 .nav__link:active{
     background-color: #457B9D;
@@ -45,4 +40,24 @@
 .nav-active{
     background-color: #457B9D;
     color: #DEF2E9;
+}
+@media only screen and(max-width:650px){
+    .nav{
+        width: 90%;
+        left: 3%;
+    }
+    .nav__link{
+        padding: 6px 20px;
+    }
+}
+@media only screen and(max-width:520px){
+    .nav__link{
+        padding: 5px 15px;
+        font-size: 14px;
+        
+    }
+    .nav__item{
+        padding: 3px 0px;
+        padding-top: 0;
+    }
 }

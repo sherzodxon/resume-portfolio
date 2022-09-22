@@ -36,3 +36,74 @@
     letter-spacing: 0.3em;
     text-align: left;
 }
+@media only screen and(max-width:1220px){
+    .intro__bg-img{
+        margin-right: 30px;
+        width: 420px;
+        height: 300px;
+    }
+    .intro__text{
+        font-size: 45px;
+    }
+    .intro__text-wrapper{
+        margin-left: 70px;
+    }
+}
+@media only screen and(max-width:990px){
+   .intro__bg-img{
+    margin-right: 10px;
+    width: 380px;
+    height: 260px;
+   }
+   .intro__text{
+    font-size: 40px;
+   }
+   .intro__text-name{
+    font-size: 20px;
+    line-height: 25px;
+   }
+   .intro__text-wrapper{
+    margin-left: 30px;
+   }
+}
+@media only screen and(max-width:815px){
+   .intro__bg-img{
+    width: 320px;
+    height: 200px;
+   }
+   .intro__text{
+    font-size: 33px;
+    line-height: 40px;
+   }
+   .intro__text-name{
+    font-size: 15px;
+   }
+}
+@media only screen and(max-width:650px){
+.intro__container{
+    flex-direction: column;
+    height: 100vh;
+    padding: 0;
+    justify-content:flex-start
+}
+.intro__text-wrapper{
+    margin:  0 auto;
+    margin-top: 50px;
+}
+.intro__text{
+    text-align: center;
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 10px;
+}
+.intro__bg-img{
+    margin: 0;
+    margin-top: 50px;
+    width: 70%;
+    height: 35%;
+}
+.intro__text-name{
+    text-align: center;
+    font-size: 20px;
+}
+}
