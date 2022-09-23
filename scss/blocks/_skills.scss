@@ -7,7 +7,7 @@
 .skills__container {
     width: 99%;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .title {
@@ -103,6 +103,7 @@
 @media only screen and(max-width:650px) {
     #mobile-list {
         display: block;
+        padding-bottom: 70px;
     }
 
     #destkop-list {
@@ -151,27 +152,33 @@
     }
 
 }
-@media only screen and(max-width:500px){
-    .skills__name{
+
+@media only screen and(max-width:500px) {
+    .skills__name {
         padding-left: 90px;
-        &::before{
+
+        &::before {
             left: 40px;
         }
     }
-  
+
 }
-@media only screen and(max-width:420px){
-    .skills__name{
+
+@media only screen and(max-width:420px) {
+    .skills__name {
         padding-left: 100px;
         font-size: 16px;
-        &::before{
+
+        &::before {
             left: 50px;
         }
     }
-    .skills__item{
+
+    .skills__item {
         width: 90%;
     }
-    .skills__list{
+
+    .skills__list {
         padding-bottom: 30px;
     }
 }

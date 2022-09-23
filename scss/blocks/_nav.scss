@@ -44,20 +44,24 @@
 @media only screen and(max-width:650px){
     .nav{
         width: 90%;
-        left: 3%;
+        left: 5%;
     }
     .nav__link{
         padding: 8px 20px;
     }
+   
 }
 @media only screen and(max-width:520px){
     .nav__link{
         padding: 6px 15px;
         font-size: 14px;
-        
     }
     .nav__item{
         padding: 3px 0px;
         padding-top: 0;
     }
+    .nav{
+        top: calc(100% - 5vh);
+    }
 }
+
