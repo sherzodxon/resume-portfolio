@@ -166,15 +166,18 @@
     }
     .projects__info{
         padding-bottom: 0;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .projects__info:nth-child(even){
-        padding-right: 0;
+        padding-right: 15;
         padding-bottom: 15px;
         padding-top: 0;
     }
     .projects__technology, .projects__version, .projects__live{
         font-size: 14px;
         line-height: 23px;
+    
     }
     .title{
         font-size: 30px;
@@ -191,11 +194,16 @@
     border-radius: 30px;
 }
 .projects__technology, .projects__version, .projects__live{
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 300;
 }
 .projects__name{
-    font-size: 12px;
+    font-size: 10px;
+}
+.projects__info, .projects__info:nth-child(even){
+    width: 90%;
+    padding-right: 15px;
 }
 }
 @media only screen and(max-width:430px){

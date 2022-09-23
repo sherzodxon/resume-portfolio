@@ -1,6 +1,10 @@
 .contact{
     padding-top: 150px;
 }
+.contact__container{
+    width: 94%;
+    margin: 0 auto;
+}
 .contact__wrapper {
     display: flex;
     width: 80%;
@@ -136,5 +140,41 @@ body input:focus~.contact__border {
         position: absolute;
         content: '';
         left: -30px;
+        top: -20px;
+    }
+}
+@media only screen and(max-width:900px){
+.contact__item{
+    padding: 25px;
+    padding-left: 30px;
+    margin-bottom: 60px;
+    &::after{
+        top: -30px;
+        left: -30px;
+    }
+    
+}
+.telegram{
+    &::after{
+        left: -30px;
+        top: -30px;
+    }
+}
+.contact__wrapper{
+    flex-direction: column;
+}
+.contact__form{
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+
+}
+@media only screen and(max-width:450px){
+    .contact__item{
+        font-size: 15px;
+    }
+    .contact__form{
+        width: 100%;
     }
 }
