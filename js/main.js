@@ -1,19 +1,5 @@
- //Sticky menu
-
  var sticky = document.querySelector('.nav');
  var origOffsetY = sticky.offsetTop;
-
- // function onScroll(e) {
- //     window.scrollY >= origOffsetY ? sticky.classList.add('fixed') :
- //         sticky.classList.remove('fixed');
- // }
- // document.addEventListener('scroll', onScroll);
-
-
- // Требуется jQuery
-
-
- // Scroll active
 
  $(window).scroll(function () {
      var scrollDistance = $(window).scrollTop();
