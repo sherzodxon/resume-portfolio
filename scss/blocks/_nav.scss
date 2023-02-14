@@ -51,17 +51,18 @@
     }
    
 }
-// @media only screen and (max-width:520px){
-//     .nav__link{
-//         // padding: 6px 15px;
-//         font-size: 14px;
-//     }
-//     .nav__item{
-//         padding: 5px 0px;
-//         padding-top: 0;
-//     }
-//     .nav{
-//         top: calc(100% - 5vh);
-//     }
-// }
+@media only screen and (max-width:520px){
+    .nav__link{
+         padding: 4px 15px;
+         padding-bottom: 6px;
+        font-size: 14px;
+    }
+    .nav__item{
+        padding: 5px 0px;
+        padding-top: 0;
+    }
+    .nav{
+        top: calc(100% - 5vh);
+    }
+}
 
