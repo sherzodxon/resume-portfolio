@@ -1,6 +1,6 @@
 .nav{
     position: fixed;
-    bottom: 15px;
+    bottom: 5px;
     width: 456px;
     left: calc(50% - 228px);
     top: calc(100% - 10vh);
@@ -41,7 +41,7 @@
     background-color: #457B9D;
     color: #DEF2E9;
 }
-@media only screen and(max-width:650px){
+@media only screen and (max-width:650px){
     .nav{
         width: 90%;
         left: 5%;
@@ -51,17 +51,17 @@
     }
    
 }
-@media only screen and(max-width:520px){
-    .nav__link{
-        padding: 6px 15px;
-        font-size: 14px;
-    }
-    .nav__item{
-        padding: 3px 0px;
-        padding-top: 0;
-    }
-    .nav{
-        top: calc(100% - 5vh);
-    }
-}
+// @media only screen and (max-width:520px){
+//     .nav__link{
+//         // padding: 6px 15px;
+//         font-size: 14px;
+//     }
+//     .nav__item{
+//         padding: 5px 0px;
+//         padding-top: 0;
+//     }
+//     .nav{
+//         top: calc(100% - 5vh);
+//     }
+// }
 
