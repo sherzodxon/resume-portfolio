@@ -12,11 +12,31 @@
 }
 body{
     font-family: "Poppins";
-    color:rgba(69, 123, 157, 1);
+    color:#457b9d;
     position: relative;
     background-color: #A8DADC;
     overflow-x: hidden;
 }
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(143, 149, 151, 0.3);
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #457b9d;
+    
+}
+
 ul , ol{
     list-style: none;
 }
