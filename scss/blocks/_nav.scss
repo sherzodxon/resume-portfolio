@@ -52,9 +52,12 @@
         font-size: 14px;
         padding: 8px 16px;
     }
-    
+    .nav__list{
+        padding: 7px 0px;
+    }
     .nav{
-        top: calc(100% - 5vh);
+        top: calc(100% - 7vh);
+       
     }
 }
 
