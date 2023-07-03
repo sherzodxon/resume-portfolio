@@ -13,20 +13,18 @@
     align-items: center;
     background-color: #DEF2E9;
     border-radius: 30px;
-    padding: 0;
+    padding: 10px 0px;
     margin: 0;
 }
 
 .nav__item {
     margin: 0;
     padding: 0;
-    padding: 8px 0px;
 }
 
 .nav__link {
     margin: 0;
-    padding: 0;
-    padding: 10px 25px;
+    padding: 10px 20px;
     text-decoration: none;
     border-radius: 30px;
     color: #457B9D;
@@ -46,21 +44,15 @@
         width: 90%;
         left: 5%;
     }
-    .nav__link{
-        padding: 8px 20px;
-    }
+    
    
 }
 @media only screen and (max-width:520px){
     .nav__link{
-         padding: 4px 15px;
-         padding-bottom: 6px;
         font-size: 14px;
+        padding: 8px 16px;
     }
-    .nav__item{
-        padding: 5px 0px;
-        padding-top: 0;
-    }
+    
     .nav{
         top: calc(100% - 5vh);
     }
