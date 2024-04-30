@@ -46,16 +46,24 @@
          autoplayHoverPause: false,
          responsiveClass: true,
          responsive: {
-             0: {
+            0:{
+               items:1,
+               dots:false
+            },
+             400: {
                  items: 1,
-                 
+                  dots:false
              },
-             700: {
-                 items: 2,
+             600:{ 
+                items:2,
+
+             },
+             800: {
+                 items: 3,
                 
              },
              1000: {
-                 items: 3,
+                 items: 5,
              }
          },
          nav: false
