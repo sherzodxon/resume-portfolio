@@ -9,7 +9,7 @@
 }
 .footer__list{
     display: flex;
-    width: 300px;
+    width: 330px;
     justify-content: space-between;
 }
 .footer__item{
@@ -41,4 +41,18 @@
         fill: #fff;
     }
  }
+}
+@media only screen and (max-width:655px){
+    .footer__container{
+        flex-direction: column;
+    }
+    .footer-text{
+        text-align: right;
+        padding-top: 10px;
+    }
+    
+    .footer__list{
+        margin:  0 auto;
+        margin-bottom: 35px;
+    }
 }

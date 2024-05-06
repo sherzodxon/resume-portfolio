@@ -1,7 +1,8 @@
 .projects {
     padding: 100px 0;
-    overflow-x: hidden;
-    background-color: #fff;
+   // overflow-x: hidden;
+    background-color: #F2FCEF;
+    width: 100%;
 }
 .projects__container {
     margin: 0 auto;
@@ -12,7 +13,7 @@
 }
 
 .projects__list {
-    width: 95%;
+    // width: 95%;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
@@ -30,6 +31,7 @@
     width: 400px;
     margin-right: 15px;
     margin-bottom: 35px;
+    cursor:grabbing;
     position: relative;
     &:hover {
         background-color: rgb(255, 255, 0,0.2);
@@ -151,6 +153,8 @@
     display: block;
     border-radius: 10px;
     margin: 0 auto;
+    max-width: 95%;
+    max-height: 70%;
 }
 .projects__item:after {
     content: "";
@@ -173,6 +177,8 @@
     position: absolute;
     width: 370px;
     height: 200px;
+    max-width: 95%;
+    max-height: 70%;
     background-color: rgb(0, 0, 0,0.8);
     top: 20px;
     border-radius: 10px;
@@ -224,101 +230,24 @@
     margin-left: 15px;
 }
 
-@media only screen and (max-width:1120px) {
-    // .projects__info {
-    //     padding-left: 25px;
-
-    //     &:nth-child(even) {
-    //         padding-right: 50px;
-    //     }
-    // }
-}
-@media only screen and (max-width:1060px) {
-    // .projects__img{
-    //     width: 400px;
-    //     height: 240px;
-    // }
-    // .projects__info {
-    //     padding-left: 25px;
-
-    //     &:nth-child(even) {
-    //         padding-right: 40px;
-    //     }
-    // }
-}
-@media only screen and (max-width:920px) {
-    // .projects__info {
-    //     padding-left: 25px;
-    //     padding-top: 15px;
-    //     padding-bottom: 15px;
-
-    //     &:nth-child(even) {
-    //         padding-right: 30px;
-    //     }
-    // }
-    // .projects__technology, .projects__version, .projects__live{
-    //     font-size: 16px;
-    // }
-    // .projects__name{
-    //     font-size: 14px;
-    // }
+@media only screen and (max-width:890px) {
+   .projects__item{
+    margin-right: 0;
+   }
 
 }
-@media only screen and (max-width:880px) {
-    //    .projects__item{
-    //     flex-direction: column;
-    //     &:nth-child(even){
-    //         flex-direction: column;
-    //     }
-    //   }
-    //   .projects__texts-wrapper{
-    //     width: 60%;
-    //   }
-    //    .projects__img{
-    //     padding: 15px;
-    //    }
-    //    .projects__info{
-    //     display: flex;
-    //     padding: 0;
-    //     padding-bottom: 25px;
-    //   align-items: center;
-    //     width: 90%;
-    //     justify-content: space-between;
-    //     padding-right: 0;
-    //    }
-    //    .projects__links-wrapper{
-    //     padding-right: 0;
-    //    }
-    //    .projects__name{
-    //     margin: 0;
-    //    }
-    //    .projects__technology{
-    //     margin-top: 5px;
-    //    }
-    //    .projects{
-    //     padding-top: 0px;
-    //    }
 
-}
 @media only screen and (max-width:600px) {
-    // .projects__item{
-    //     width: 90%;
-    // }
-    // .projects__info{
-    //     padding-bottom: 0;
-    //     padding-left: 15px;
-    //     padding-right: 15px;
-    // }
-    // .projects__info:nth-child(even){
-    //     padding-right: 15;
-    //     padding-bottom: 15px;
-    //     padding-top: 0;
-    // }
-    // .projects__technology, .projects__version, .projects__live{
-    //     font-size: 14px;
-    //     line-height: 23px;
-
-    // }
+.projects__item{
+    max-width: 320px;
+}
+.projects__item-visitor{
+    left: 8px;
+    height: 175px;
+}
+.projects__item-img{
+    height: 175px;
+}
 
 }
 @media only screen and (max-width:530px) {

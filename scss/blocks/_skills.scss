@@ -2,6 +2,7 @@
 
 .skills {
     padding-top: 120px;
+    background: linear-gradient(to bottom, #F2FCEF 10%, #A8DADC 100%);;
 }
 
 .skills__container {
@@ -131,13 +132,11 @@
     // }
 
     .skills {
-        padding-top: 150px;
-        height: 100vh;
+        padding: 150px 0;
+        //height: 100vh;
     }
 
-    .skills__item-title {
-        padding-bottom: 40px;
-    }
+   
 
   
 
