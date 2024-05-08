@@ -1,7 +1,7 @@
 @import "skills-icons";
 
 .skills {
-    padding-top: 120px;
+    padding: 120px 0;
     background: linear-gradient(to bottom, #F2FCEF 10%, #A8DADC 100%);;
 }
 
@@ -91,10 +91,6 @@
 }
 
 
-#mobile-list {
-    display: none;
-}
-
 @media only screen and (max-width:820px) {
 
     .skills__list {
@@ -129,13 +125,7 @@
 
     // .skills__list {
     //     height: 80%;
-    // }
-
-    .skills {
-        padding: 150px 0;
-        //height: 100vh;
-    }
-
+ 
    
 
   

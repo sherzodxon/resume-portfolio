@@ -160,11 +160,11 @@ a {
 }
 .nav {
   position: fixed;
-  bottom: 5px;
-  width: 456px;
+  max-width: 456px;
+  width: 90%;
   left: calc(50% - 228px);
-  top: calc(100% - 10vh);
-  z-index: 2;
+  bottom: 10px;
+  z-index: 99;
 }
 
 .nav__list {
@@ -176,6 +176,7 @@ a {
   border-radius: 30px;
   padding: 10px 0px;
   margin: 0;
+  max-width: 100%;
 }
 
 .nav__item {
@@ -203,22 +204,16 @@ a {
   color: #DEF2E9;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 510px) {
   .nav {
-    width: 90%;
     left: 5%;
   }
-}
-@media only screen and (max-width: 520px) {
   .nav__link {
     font-size: 14px;
     padding: 8px 16px;
   }
   .nav__list {
     padding: 7px 0px;
-  }
-  .nav {
-    top: calc(100% - 7vh);
   }
 }
 @keyframes fadeIn {
@@ -368,13 +363,12 @@ a {
 
 .intro__container {
   display: flex;
-  max-width: 1320px;
-  width: calc(100% - 20px);
   justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
+  padding: 0;
   padding-top: 20px;
   padding-bottom: 300px;
-  overflow: hidden;
 }
 
 .intro__head {
@@ -756,7 +750,7 @@ a {
 }
 
 .skills {
-  padding-top: 120px;
+  padding: 120px 0;
   background: linear-gradient(to bottom, #F2FCEF 10%, #A8DADC 100%);
 }
 
@@ -819,10 +813,6 @@ a {
   margin-top: 15px;
 }
 
-#mobile-list {
-  display: none;
-}
-
 @media only screen and (max-width: 820px) {
   .skills__list {
     width: 85%;
@@ -833,9 +823,6 @@ a {
   #mobile-list {
     display: block;
     padding-bottom: 70px;
-  }
-  .skills {
-    padding: 150px 0;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -868,6 +855,7 @@ a {
 
 .projects__list {
   margin: 0 auto;
+  overflow: hidden;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;

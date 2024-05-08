@@ -1,10 +1,11 @@
 .nav{
-    position: fixed;
-    bottom: 5px;
-    width: 456px;
+        position: fixed;
+   // bottom: 5px;
+    max-width: 456px;
+    width: 90%;
     left: calc(50% - 228px);
-    top: calc(100% - 10vh);
-    z-index: 2;
+    bottom: 10px;
+    z-index: 99;
 }
 .nav__list {
     display: flex;
@@ -15,6 +16,7 @@
     border-radius: 30px;
     padding: 10px 0px;
     margin: 0;
+    max-width: 100%;
 }
 
 .nav__item {
@@ -39,15 +41,12 @@
     background-color: #457B9D;
     color: #DEF2E9;
 }
-@media only screen and (max-width:650px){
+
+@media only screen and (max-width:510px){
     .nav{
-        width: 90%;
+       
         left: calc(50% - 45%);
     }
-    
-   
-}
-@media only screen and (max-width:520px){
     .nav__link{
         font-size: 14px;
         padding: 8px 16px;
@@ -55,9 +54,6 @@
     .nav__list{
         padding: 7px 0px;
     }
-    .nav{
-        top: calc(100% - 7vh);
-       
-    }
+    
 }
 

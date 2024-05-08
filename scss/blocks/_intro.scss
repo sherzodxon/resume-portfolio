@@ -155,14 +155,16 @@ $tertiary-color: #457b9d;
 }
 .intro__container {
     display: flex;
-    max-width: 1320px;
-    width: calc(100% - 20px);
+    //max-width: 1320px;
+    //width: calc(100% - 20px);
     justify-content: space-between;
     align-items: center;
+    margin:  0 auto;
+    padding: 0;
     padding-top: 20px;
     padding-bottom: 300px;
-
-    overflow: hidden;
+   
+    //overflow: hidden;
 }
 .intro__head{
  
