@@ -189,10 +189,11 @@
 }
 .projects__item-button{
     color: yellow;
-    margin-top: 20px;
-    margin-left: 15px;
+    bottom: 15px;
+    left: 25px;
     padding: 5px 0;
     display: flex;
+    position: absolute;
     max-width: 110px;
 }
 .projects__item-svg{
@@ -229,6 +230,7 @@
     color: #40444f;
     margin-top: 5px;
     margin-left: 15px;
+    padding-bottom: 50px;
 }
 
 @media only screen and (max-width:890px) {
@@ -240,14 +242,21 @@
 
 @media only screen and (max-width:600px) {
 .projects__item{
-    max-width: 320px;
+    width: 350px;
 }
+
 .projects__item-visitor{
     left: 8px;
+   width: 330px;
+   left:  calc(50% - 165px);
     height: 175px;
 }
 .projects__item-img{
+    width: 330px;
     height: 175px;
+}
+.projects__item-visitorbtn{
+    top: 65px;
 }
 
 }
