@@ -877,6 +877,12 @@ a {
 .projects__item:hover {
   background-color: rgba(255, 255, 0, 0.2);
 }
+.projects__item:hover:first-child {
+  background-color: rgba(0, 153, 89, 0.2);
+}
+.projects__item:hover .projects__item-visitor {
+  opacity: 1;
+}
 .projects__item::after {
   content: "";
   position: absolute;
@@ -894,9 +900,6 @@ a {
 }
 .projects__item:first-child::after {
   background-color: #009959;
-}
-.projects__item:first-child:hover {
-  background-color: rgba(0, 153, 89, 0.2);
 }
 .projects__item:first-child .projects__item-visitorbtn {
   border: 2px solid #009959;
