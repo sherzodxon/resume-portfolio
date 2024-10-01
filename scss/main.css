@@ -621,6 +621,20 @@ a {
     font-size: 28px;
   }
 }
+@media only screen and (max-width: 330px) {
+  .intro__name-wrapper {
+    margin-left: 5px;
+  }
+  .intro__name {
+    font-size: 20px !important;
+  }
+  .intro__role {
+    margin-left: 5px;
+  }
+  .intro__role .intro__jobname {
+    margin-left: 5px;
+  }
+}
 .html {
   position: relative;
 }
@@ -1092,6 +1106,19 @@ a {
   }
   .projects__item-visitorbtn {
     top: 65px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .projects__item {
+    width: 300px;
+  }
+  .projects__item-visitor {
+    width: 280px;
+    left: calc(50% - 140px);
+  }
+  .projects__item-img {
+    width: 280px;
+    height: 145px;
   }
 }
 .contact {

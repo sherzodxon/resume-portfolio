@@ -266,3 +266,16 @@
 
 }
 
+@media only screen and (max-width:380px) {
+    .projects__item{
+        width: 300px;
+    }
+    .projects__item-visitor{
+        width: 280px;
+        left: calc(50% - 140px);
+    }
+    .projects__item-img{
+        width: 280px;
+        height: 145px;
+    }
+}
