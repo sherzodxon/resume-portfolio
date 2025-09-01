@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sayt xaritasi
+Sitemap: https://sherzodxon.uz/sitemap.xml
